@@ -10,22 +10,19 @@ html {
 body {
   font-family: Merriweather, serif;
   text-align: center;
+  margin: 0;
 
 }
 
 main {
   background-color: #d05c2e;
-  border-color: #a63f38;
-  border-style: solid;
 }
 
 h1 {
-  color: white ;
+  color: white;
   font-size: 2rem;
   background-color: #d05c2e;
-  border-color: #a63f38;
-  border-style: solid;
-
+  margin: 0 0 .7rem;
 }
 
 img {
@@ -33,22 +30,37 @@ img {
 }
 
 .left {
-
+  float: left;
 }
 
 .right {
-
+  float: right;
 }
 
 ul {
-  display: inline-block;
   list-style-type: none;
   color: white;
   font-size: 1.125rem;
   background-color: #d05c2e;
-  border-color: #a63f38;
-  border-style: solid;
+  margin: .3rem;
+  padding: .5em 0 0;
+  overflow: hidden;
 }
 
-- *Margins:* `0`, `0 0 .7rem`, `.3rem`
-- *Paddings:* `0`, `.5em 0 0`, `.4rem 0`
+.home {
+  float: left;
+  width: 33.3333%;
+  border: solid #a63f38;
+}
+
+.cereals {
+  float: left;
+  width: 33.3333%;
+  border: solid #a63f38;
+}
+
+.legumes {
+  float: left;
+  width: 33.3333%;
+  border: solid #a63f38;
+}
