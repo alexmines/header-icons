@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Merriweather, serif;
+  text-align: center;
+
+}
+
+main {
+  background-color: #d05c2e;
+  border-color: #a63f38;
+  border-style: solid;
+}
+
+h1 {
+  color: white ;
+  font-size: 2rem;
+  background-color: #d05c2e;
+  border-color: #a63f38;
+  border-style: solid;
+
+}
+
+img {
+  width: 40px;
+}
+
+.left {
+
+}
+
+.right {
+
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  font-size: 1.125rem;
+  background-color: #d05c2e;
+  border-color: #a63f38;
+  border-style: solid;
+}
+
+- *Margins:* `0`, `0 0 .7rem`, `.3rem`
+- *Paddings:* `0`, `.5em 0 0`, `.4rem 0`
