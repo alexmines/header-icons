@@ -53,14 +53,26 @@ ul {
   border: solid #a63f38;
 }
 
+.home:hover {
+  background-color: #a63f38;
+}
+
 .cereals {
   float: left;
   width: 33.3333%;
   border: solid #a63f38;
 }
 
+.cereals:hover {
+  background-color: #a63f38;
+}
+
 .legumes {
   float: left;
   width: 33.3333%;
   border: solid #a63f38;
+}
+
+.legumes:hover {
+  background-color: #a63f38;
 }
